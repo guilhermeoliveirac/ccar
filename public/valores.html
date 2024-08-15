@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="valores">
+    <header>
+        <h1>Valores das Manutenções</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="manutencao.html">Manutenção</a>
+            <a href="valores.html">Valores</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Filtrar por Mês e Ano</h2>
+        <form id="filtroForm">
+            <label for="filtroMes">Mês:</label>
+            <input type="number" id="filtroMes" name="mes" min="1" max="12" required>
+            
+            <label for="filtroAno">Ano:</label>
+            <input type="number" id="filtroAno" name="ano" min="1900" required>
+            
+            <button type="submit">Filtrar</button>
+        </form>
+
+        <h2>Manutenções Registradas</h2>
+        <table id="tabela-valores">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Fabricante</th>
+                    <th>Código</th>
+                    <th>Valor do Item</th>
+                    <th>KM</th>
+                    <th>Mão de Obra</th>
+                    <th>Data</th>
+                    <th>Imagem</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Linhas da tabela serão preenchidas pelo script.js -->
+            </tbody>
+        </table>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
