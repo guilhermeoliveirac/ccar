@@ -21,7 +21,7 @@ Este é um sistema web simples para gerenciamento de manutenções veiculares, c
 
 - cd ccar
 
-- docker-compose up --build
+- docker-compose up --build -d
 ```
 
 
