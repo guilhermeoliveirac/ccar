@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body id="home">
-    <header>
-        <h1>Bem-vindo ao Sistema de Manutenção</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="manutencao.html">Manutenção</a>
-            <a href="valores.html">Valores</a>
-        </nav>
-    </header>
+  <header>
+    <h1 style="color:white;">Bem-vindo ao Sistema de Manutenção</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="manutencao.html">Manutenção</a>
+      <a href="valores.html">Valores</a>
+      <button id="btnLogout" style="margin-left: 1em;">Sair</button>
+    </nav>
+  </header>
 
+  <div class="main-content">
     <main>
-        <h2>Última Manutenção</h2>
-        <p id="ultima-manutencao">Nenhuma manutenção registrada</p>
-        <p id="valor-total">R$ 0,00</p>
+        
+      <h2 >Última Manutenção</h2>
+      <p id="ultima-manutencao">Nenhuma manutenção registrada</p>
+      <p id="valor-total">R$ 0,00</p>
+      <h3>Gastos por Mês (Ano Atual)</h3>
+      <canvas id="graficoGastos" width="400" height="200"></canvas>
     </main>
+  </div>
 
+  <footer>
+    &copy; Guilherme
+  </footer>
 
-    <script src="script.js"></script>
-    <footer>
-        &copy; GUILHERME
-    </footer>
+  <script src="script.js" defer></script>
 </body>
 </html>

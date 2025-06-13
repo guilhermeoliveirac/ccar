@@ -8,27 +8,18 @@
 </head>
 <body id="valores">
     <header>
-        <h1>Valores das Manutenções</h1>
+        <h1 style="color:white;">Valores das Manutenções</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="manutencao.html">Manutenção</a>
             <a href="valores.html">Valores</a>
+            <button id="btnLogout" style="margin-left: 1em;">Sair</button>
         </nav>
     </header>
 
     <main>
-        <h2>Filtrar por Mês e Ano</h2>
-        <form id="filtroForm">
-            <label for="filtroMes">Mês:</label>
-            <input type="number" id="filtroMes" name="mes" min="1" max="12" required>
-            
-            <label for="filtroAno">Ano:</label>
-            <input type="number" id="filtroAno" name="ano" min="1900" required>
-            
-            <button type="submit">Filtrar</button>
-        </form>
-
         <h2>Manutenções Registradas</h2>
+        
         <table id="tabela-valores">
             <thead>
                 <tr>
@@ -39,7 +30,6 @@
                     <th>KM</th>
                     <th>Mão de Obra</th>
                     <th>Data</th>
-                    <th>Imagem</th>
                     <th>Ações</th>
                 </tr>
             </thead>
