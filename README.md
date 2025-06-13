@@ -17,7 +17,7 @@ Este é um sistema web simples para gerenciamento de manutenções veiculares, c
 ### Deploy
 
 ```bash
-- git clone https://github.com/seu-usuario/ccar.git
+- git clone https://github.com/guilhermeoliveirac/ccar
 
 - cd ccar
 
