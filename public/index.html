@@ -20,12 +20,20 @@
 
   <div class="main-content">
     <main>
-        
-      <h2 >Última Manutenção</h2>
-      <p id="ultima-manutencao">Nenhuma manutenção registrada</p>
-      <p id="valor-total">R$ 0,00</p>
-      <h3>Gastos por Mês (Ano Atual)</h3>
-      <canvas id="graficoGastos" width="400" height="200"></canvas>
+      <section>
+        <h2>Última Manutenção</h2>
+        <p id="ultima-manutencao">Nenhuma manutenção registrada</p>
+        <p id="valor-total">R$ 0,00</p>
+      </section>
+
+      <section>
+        <h3>Gastos por Mês (Ano Atual)</h3>
+
+        <label for="filtroAnoHome">Filtrar por Ano:</label>
+        <select id="filtroAnoHome"></select>
+
+        <canvas id="graficoGastos" width="400" height="200"></canvas>
+      </section>
     </main>
   </div>
 
