@@ -12,7 +12,7 @@ Este é um sistema web simples para gerenciamento de manutenções veiculares, c
 - Chart.js
 ## 📦 Pré-requisitos
 
-- [Docker](https://www.docker.com/)
+- [Docker](https://docs.docker.com/engine/install/)
 - [Docker Compose](https://docs.docker.com/compose/)
 ### Deploy
 
